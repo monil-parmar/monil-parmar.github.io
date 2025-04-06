@@ -1,1 +1,2 @@
-![Preview Img](files/preview.png)
+# monil-parmar.github.io
+Digital Portfolio
