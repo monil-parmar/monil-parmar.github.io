@@ -6,12 +6,22 @@ Welcome to my personal portfolio website, built to showcase my journey as a **Cl
 
 
 ## 🚀 Website Preview
+### Dark Mode
 <p align="center"> 
   <kbd>
     <a href="https://monil-parmar.github.io" target="_blank"><img src="files/portfolio_preview (1).gif">
   </a>
   </kbd>
 </p>
+
+### Light Mode
+<p align="center"> 
+  <kbd>
+    <a href="https://monil-parmar.github.io" target="_blank"><img src="files/light mode.gif">
+  </a>
+  </kbd>
+</p>
+
 
 ---
 
