@@ -3,8 +3,15 @@
 Welcome to my personal portfolio website, built to showcase my journey as a **Cloud Computing enthusiast**. I have transitioned from a background in Mechanical Engineering to mastering cloud technologies, with hands-on experience in AWS, Azure, Microsoft 365, Windows Server, and more.
 
 🌐 Live Demo: [monil-parmar.github.io](https://monil-parmar.github.io)
-[![Portfolio Preview](assets/portfolio_preview.gif)](https://monil-parmar.github.io/)
 
+
+## 🚀 Website Preview
+<p align="center"> 
+  <kbd>
+    <a href="https://monil-parmar.github.io" target="_blank"><img src="files/portfolio_preview (1).gif">
+  </a>
+  </kbd>
+</p>
 
 ---
 
