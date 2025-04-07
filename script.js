@@ -8,8 +8,8 @@ $(document).ready(function() {
     }
 
     // Update the active section in the header
-    updateActiveSection();
-  });
+      updateActiveSection();
+    });
 
   // Smooth Scroll and Active Link Highlighting
   $(".header ul li a").click(function(e) {
@@ -95,8 +95,8 @@ $(document).ready(function() {
   }
 
   // Mobile Menu Toggle
-  $(".header .menu_icon").click(function() {
-    $(".header ul").toggle();
+  $(".menu_icon").click(function() {
+    $(".navbar").slideToggle();
   });
 });
 
@@ -157,4 +157,19 @@ ScrollReveal().reveal('.education-column, .education-sidecard, .experience-conte
   delay: 200,
   easing: 'ease-in-out',
   reset: false
+});
+
+// Sidebar Toggle for Mobile
+const sidebar = document.getElementById("mobileSidebar");
+const overlay = document.getElementById("sidebarOverlay");
+const menuIcon = document.querySelector(".menu_icon");
+
+menuIcon.addEventListener("click", () => {
+  sidebar.classList.toggle("active");
+  overlay.classList.toggle("active");
+});
+
+overlay.addEventListener("click", () => {
+  sidebar.classList.remove("active");
+  overlay.classList.remove("active");
 });

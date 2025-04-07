@@ -1037,6 +1037,7 @@ profile-photo .img{
 
 .contact-form input,
 .contact-form textarea {
+  width: 100%;
   padding: 12px;
   margin-bottom: 15px;
   border: none;
@@ -1100,8 +1101,10 @@ profile-photo .img{
 }
 
 .footer-socials {
-  margin-bottom: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
 
 .footer-socials a {
   color: #fed700;
@@ -1142,9 +1145,11 @@ profile-photo .img{
     flex-direction: column;
     padding-top: 2rem;
   }
-  .profile-text{
-    padding: 40px 0px;
+  .profile-text {
+    width: 100%;
+    padding: 20px 0;
   }
+  
 }
 
 
@@ -1159,8 +1164,9 @@ profile-photo .img{
 
 /* Mobile Layout */
 @media only screen and (max-width:767px){
-  .container{
-    width: 350px;
+  .container {
+    width: 100%;
+    padding: 0 15px;
   }
 
   .header .menu_icon {
@@ -1561,3 +1567,100 @@ body.light-mode .reveal-fade.active {
   transform: scale(1);
   opacity: 1;
 }
+
+.social {
+  display: flex;
+  justify-content: left;   /* Center horizontally */
+  align-items: center;       /* Center vertically */
+  gap: 20px;                 /* Even spacing between icons */
+  margin-top: 10px;
+}
+
+.social a {
+  color: #e5e5e5;
+  font-size: 20px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social a:hover {
+  color: #fed700;
+  transform: scale(1.2);
+}
+
+
+/* Sidebar for mobile */
+.mobile-sidebar {
+  position: fixed;
+  top: 0;
+  left: -280px;
+  width: 260px;
+  height: 100%;
+  z-index: 2000;
+  transition: left 0.3s ease;
+  padding-top: 60px;
+  background: rgba(255, 255, 255, 0.9); /* semi-transparent */
+  backdrop-filter: blur(10px);          /* frosted glass blur */
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.2);
+
+}
+.mobile-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.mobile-sidebar ul li {
+  padding: 15px 25px;
+  border-bottom: 1px solid #eee;
+}
+.mobile-sidebar ul li a {
+  color: #1c1c1c;
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+.mobile-sidebar ul li i {
+  margin-right: 12px;
+  font-size: 18px;
+}
+
+/* Show Sidebar */
+.mobile-sidebar.active {
+  left: 0;
+}
+
+/* Overlay for dim effect */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.3);
+  z-index: 1000;
+  display: none;
+}
+
+.overlay.active {
+  display: block;
+}
+
+/* Hide default navbar on small screens */
+@media only screen and (max-width: 768px) {
+  .header ul.navbar {
+    display: none;
+  }
+}
+
+.menu_icon {
+  position: fixed; /* or absolute if you prefer */
+  top: 30px;
+  left: 30px; /* or left: 20px if you want it on the left */
+  z-index: 3000;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
