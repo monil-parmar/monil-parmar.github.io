@@ -46,7 +46,7 @@ $(document).ready(function() {
   ScrollReveal().reveal(".projects, .contact", { origin: "bottom" });
 
   // Contact Form Submission to Google Sheets
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbzUSaaX3XmlE5m9YLOHOBrRuCh2Ohv49N9bs4bew7xPd1qlgpvXtnudDs5Xhp3jF-Fx/exec';
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbx2goXhf-qTaYrPNl-m8eK-l8uMLVL_X3xFH2rz9pB7CILJZTlCl7-Kwr7MHVvhs1xy/exec';
   const form = document.forms['submitToGoogleSheet'];
   const msg = document.getElementById("msg");
 
@@ -94,10 +94,31 @@ $(document).ready(function() {
     });
   }
 
-  // Mobile Menu Toggle
-  $(".menu_icon").click(function() {
-    $(".navbar").slideToggle();
+  // // Mobile Menu Toggle
+  // $(".menu_icon").click(function() {
+  //   $(".navbar").slideToggle();
+  // });
+
+
+  new Typed('#typed-role', {
+    strings: [
+      "Cloud Enthusiast",
+      "Cloud Administrator",
+      "Cloud Engineer"
+    ],
+    typeSpeed: 50,
+    backSpeed: 30,
+    backDelay: 1500,
+    startDelay: 500,
+    loop: true,
+    showCursor: true,
+    cursorChar: '|'
   });
+  
+  
+  
+
+
 });
 
 // Update Active Section in Header
@@ -160,16 +181,24 @@ ScrollReveal().reveal('.education-column, .education-sidecard, .experience-conte
 });
 
 // Sidebar Toggle for Mobile
-const sidebar = document.getElementById("mobileSidebar");
-const overlay = document.getElementById("sidebarOverlay");
-const menuIcon = document.querySelector(".menu_icon");
+const sidebar = document.getElementById('mobileSidebar');
+const overlay = document.getElementById('sidebarOverlay');
+  const menuToggle = document.getElementById('menuToggle');
 
-menuIcon.addEventListener("click", () => {
-  sidebar.classList.toggle("active");
-  overlay.classList.toggle("active");
-});
+  menuToggle.addEventListener('click', () => {
+    sidebar.classList.toggle('active');
+    overlay.classList.toggle('active');
+  });
 
-overlay.addEventListener("click", () => {
-  sidebar.classList.remove("active");
-  overlay.classList.remove("active");
-});
+  overlay.addEventListener('click', () => {
+    sidebar.classList.remove('active');
+    overlay.classList.remove('active');
+  });
+
+  // Optional: close on link click
+  document.querySelectorAll('.mobile-sidebar a').forEach(link => {
+    link.addEventListener('click', () => {
+      sidebar.classList.remove('active');
+      overlay.classList.remove('active');
+    });
+  });
