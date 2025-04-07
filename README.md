@@ -1,4 +1,4 @@
-# 💼 Monil Parmar's Digital Portfolio
+# Monil Parmar's Digital Portfolio
 
 Welcome to my personal portfolio website, built to showcase my journey as a **Cloud Computing enthusiast**. I have transitioned from a background in Mechanical Engineering to mastering cloud technologies, with hands-on experience in AWS, Azure, Microsoft 365, Windows Server, and more.
 
@@ -6,7 +6,7 @@ Welcome to my personal portfolio website, built to showcase my journey as a **Cl
 
 ---
 
-## 🚀 Technologies Used
+## Technologies Used
 
 - **HTML5 / CSS3**
 - **JavaScript / jQuery**
@@ -18,30 +18,30 @@ Welcome to my personal portfolio website, built to showcase my journey as a **Cl
 
 ---
 
-## 📂 Sections Included
+## Sections Included
 
-- 👋 About Me  
-- 🎓 Education & Academic Highlights  
-- 💼 Experience  
-- 🛠️ Projects (AWS, Azure, Microsoft 365, Windows Server)  
-- 📜 Certifications  
-- 🎯 Career Goals  
-- 🤝 Volunteer Work  
-- 📬 Contact Form
+- About Me  
+- Education & Academic Highlights  
+- Experience  
+- Projects (AWS, Azure, Microsoft 365, Windows Server)  
+- Certifications  
+- Career Goals  
+- Volunteer Work  
+- Contact Form
 
 ---
 
-## 🧠 Goal
+## Goal
 
 To secure a **Cloud Engineer / Administrator / Support** role where I can contribute to secure, scalable, and innovative cloud solutions, while constantly learning and improving.
 
 ---
 
-## 📬 Contact Me
+## Contact Me
 
-- 📧 Email: [monilparmar27@gmail.com](mailto:monilparmar27@gmail.com)
-- 💼 LinkedIn: [linkedin.com/in/monil-parmar](https://www.linkedin.com/in/monil-parmar-92a4a2210/)
-- 🧑‍💻 GitHub: [monil-parmar](https://github.com/monil-parmar)
+- Email: [monilparmar27@gmail.com](mailto:monilparmar27@gmail.com)
+- LinkedIn: [linkedin.com/in/monil-parmar](https://www.linkedin.com/in/monil-parmar-92a4a2210/)
+- GitHub: [monil-parmar](https://github.com/monil-parmar)
 
 ---
 
